@@ -1,0 +1,33 @@
+
+https://linuxhint.com/linux_file_permissions/
+=================================================================================================================
+
+1.Check Permissions :
+
+ls –l
+
+- rWX rW -r--
+
+a. - (file or folder or link)
+b. rWX (Owner)
+c.rW (group)
+d.others
+
+=================================================================
+
+2.Set execute permission for the owner of a file
+
+chmod u+x app.py
+
+=====================================================================
+
+3.Set write and execute permission for any user of a file
+
+chmod a+wx app2.py
+=============================================================
+4.Reset permission for group users of a file
+
+chmod g=x app3.py
+==============================================================================
+
+
